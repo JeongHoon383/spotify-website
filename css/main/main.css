@@ -1,0 +1,42 @@
+main{
+  position: relative;
+  height: 100vh;
+  background-color: rgb(41, 65, 171);
+  background-image: url('/img/main-images.svg');
+  background-size: cover;
+}
+
+.main-header{
+  font-weight: 900;
+  font-size: 146px;
+}
+
+.main-header div:first-child{
+  position: absolute;
+  top : 30%;
+  left: 15%;
+}
+
+.main-header div:last-child{
+  position: absolute;
+  top : 50%;
+  left : 45%;
+}
+
+.main-center div{
+  position: absolute;
+  top : 75%;
+  left: 35%;
+  font-weight: 900;
+}
+
+.main-footer button{
+  position: absolute;
+  top : 80%;
+  left : 43%;
+  background-color: green;
+  border-radius: 20px;
+  border: none;
+  font-weight: 900;
+  font-size: 1.2em;
+}

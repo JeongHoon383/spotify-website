@@ -1,0 +1,42 @@
+body{
+  margin: 0 0;
+}
+
+.gnb{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  background-color: black;
+}
+
+.top-logo{
+  margin-left: 200px;
+  color: white;
+}
+
+.top-logo img{
+  width: 130px;
+}
+
+.top-logo span{
+  font-size: 2em;
+}
+
+.top-button *{
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.top-button *:not(.span-button):hover{
+  color: green;
+}
+
+.top-button *:not(:last-child){
+  margin-right: 40px;
+}
+
+.top-button a:last-of-type{
+  margin-right: 200px;
+}
