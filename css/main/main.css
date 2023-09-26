@@ -30,13 +30,20 @@ main{
   font-weight: 900;
 }
 
-.main-footer button{
+.main-footer div{
   position: absolute;
   top : 80%;
-  left : 43%;
-  background-color: green;
+  left : 41%;
+  width: 183px;
+  height: 46px;
+  background-color: #1ED760;
   border-radius: 20px;
-  border: none;
+  text-align: center;
+  line-height: 46px;
   font-weight: 900;
-  font-size: 1.2em;
+}
+
+.main-footer div:hover{
+  scale: 1.05;
+  background-color: #1ED800;
 }

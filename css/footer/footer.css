@@ -1,0 +1,21 @@
+.footer{
+  height: 530px;
+  background-color: black;
+}
+
+.footer-logo{
+  width: 132px;
+  height: 44px;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  width: 625px;
+}
