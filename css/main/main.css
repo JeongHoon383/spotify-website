@@ -1,49 +1,59 @@
-main{
-  position: relative;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background-color: rgb(41, 65, 171);
-  background-image: url('/img/main-images.svg');
-  background-size: cover;
+  background-image: url("/img/main-images.svg");
+  background-size: 175%;
+  background-position: 46% 4%;
 }
 
-.main-header{
-  font-weight: 900;
+.main-container {
+  position: relative;
+  top: 4em;
+}
+
+.first-container {
+  padding-bottom: 40px;
   font-size: 146px;
-}
-
-.main-header div:first-child{
-  position: absolute;
-  top : 30%;
-  left: 15%;
-}
-
-.main-header div:last-child{
-  position: absolute;
-  top : 50%;
-  left : 45%;
-}
-
-.main-center div{
-  position: absolute;
-  top : 75%;
-  left: 35%;
+  line-height: 166px;
+  color: #1ed760;
   font-weight: 900;
 }
 
-.main-footer div{
-  position: absolute;
-  top : 80%;
-  left : 41%;
+.first-headline{
+  position: relative;
+  left:-1.5em;
+}
+
+.second-headline{
+  position: relative;
+  left: 1em;
+}
+
+.second-container{
+  text-align: center;
+  color: #1ed760;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.button-area{
+  text-align: center;
+}
+
+.button-area:hover{
+  scale: 1.05;
+}
+
+.button-area button{
   width: 183px;
   height: 46px;
-  background-color: #1ED760;
-  border-radius: 20px;
-  text-align: center;
-  line-height: 46px;
-  font-weight: 900;
-}
-
-.main-footer div:hover{
-  scale: 1.05;
-  background-color: #1ED800;
+  border: none;
+  border-radius: 500px;
+  background-color: #1ed760;
+  color: rgb(41, 65, 171);
+  font-size: inherit;
+  font-weight: 700;
 }

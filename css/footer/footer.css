@@ -1,21 +1,93 @@
-.footer{
-  height: 530px;
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  height: 400px;
   background-color: black;
 }
 
-.footer-logo{
-  width: 132px;
-  height: 44px;
+.footer-container {
+  width: 1160px;
+  
 }
 
-.footer-menu{
+.first-footer {
+  display: flex;
+  padding-bottom: 100px;
+  
+}
+
+.text-footer-box {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  
+}
+
+.footer-tabMenu{
   display: flex;
   flex-direction: column;
+  font-size: 16px;
+}
+
+.footer-tabMenu a{
+  padding-bottom: 15px;
+  padding-top: 3px;
+}
+
+.sub-title {
+  padding: 20px 0;
+  color: #919496;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.logo-footer-box{
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+.logo-footer-box div:hover{
+  color: #1ed760;
+}
+
+.logo-footer-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
   color: white;
+  font-size: 1.35em;
+  border-radius: 50%;
+  margin-right: 15px;
 }
 
-.footer-menu{
+.USA-footer {
   display: flex;
-  flex-direction: column;
-  width: 625px;
+  justify-content: end;
+  color: #919496;
+  margin-bottom: 5px;
+  font-size: 0.8em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom-footer{
+  display: flex;
+  justify-content: space-between;
+  color: #919496;
+  
+}
+
+.bottom-footer div:not(:last-of-type):hover{
+  color: #1ed760;
+}
+
+.footer-logo{
+  margin-left: 200px;
+  font-size: 0.8em;
+  font-family: 'Courier New', Courier, monospace;
 }
